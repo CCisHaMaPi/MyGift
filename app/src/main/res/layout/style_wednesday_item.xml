@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/style_wednesday_background"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@mipmap/def_loading"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:alpha="0.7"
+        android:layout_alignBottom="@id/style_wednesday_background"/>
+    <TextView
+        android:id="@+id/style_wednesday_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/style_wednesday_background"
+        android:textColor="@color/white"
+        android:text="@string/loading"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:id="@+id/style_wednesday_biao"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/g_biao"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@id/style_wednesday_background"/>
+    <TextView
+        android:id="@+id/wednesday_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/style_wednesday_biao"
+        android:layout_alignBottom="@id/style_wednesday_background"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

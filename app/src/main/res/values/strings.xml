@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyGift</string>
+    <string name="how_to_get">领取方式</string>
+    <string name="loading">加载中···</string>
+    <string name="information">礼包说明</string>
+    <string name="last">剩余 :\t </string>
+    <string name="gift_last">礼包剩余 ： </string>
+    <string name="time">\t 时间</string>
+    <string name="type">类型 : </string>
+    <string name="size">大小 : </string>
+    <string name="people">人在玩</string>
+    <string name="over_time">有效期 : </string>
+    <string name="btn_get_gift">立即领取</string>
+    <string name="btn_see">查  看</string>
+    <string name="load_more">更多精彩</string>
+    <string name="loading_more">玩命加载中,请稍等······</string>
+    <string name="after_getgift">已领取</string>
+    <string name="gift_text_title">礼包精灵</string>
+    <string name="game_text_title">开服</string>
+    <string name="hot_text_title">热门游戏</string>
+    <string name="style_text_title">特色栏目</string>
+    <string name="hot_text_nice">精品推荐</string>
+    <string name="hot_text_hot">热门推荐</string>
+</resources>

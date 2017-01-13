@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title_game"
+        android:text="@string/game_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/lightgreen"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/title_bar_menu"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/game_table"
+        android:layout_below="@id/title_game"
+        app:tabIndicatorColor="@color/lightgreen"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="fixed"
+        app:tabMinWidth="600dp"
+        app:tabMaxWidth="600dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/game_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/game_table"
+        />
+</RelativeLayout>
