@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.lishijia.my.mygift.R;
 
@@ -49,6 +50,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 //监听动画,动画结束时,结束开场页面,回到栈底的MainActivity
+                Toast.makeText(SplashActivity.this, "礼包精灵欢迎您", Toast.LENGTH_SHORT).show();
                 finish();
                 overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
 
